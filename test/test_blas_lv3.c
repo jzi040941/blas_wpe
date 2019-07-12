@@ -1,9 +1,9 @@
-#include "header_for_test.h"
+//#include "header_for_test.h"
 #include "mother.h"
 
 #define _print 1
 
-#define _A 0  // N N
+#define _A 1  // N N
 #define _B 0  // T N
 #define _C 0  // T T
 #define _D 0  // N T
@@ -16,7 +16,7 @@
 #define _J 0  // T C
 #define _K 0  // C M
 #define _L 0  // C T
-#define _M 1  // C C
+#define _M 0  // C C
 
 #define colA 10
 #define rowA 10

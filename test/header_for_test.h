@@ -4,7 +4,7 @@
 #endif
 
 #if OS_UNIX
-void stopwatch(int flag) {
+long long stopwatch(int flag) {
   enum clock_unit { nano = 0, micro, milli, sec } unit;
 
   const long long NANOS = 1000000000LL;
